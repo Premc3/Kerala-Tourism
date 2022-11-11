@@ -1,0 +1,21 @@
+body{
+    background-image: url(../Images/login.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    border-radius: 25px;
+    margin-top: 10%;
+    margin-right: 10%;
+    background-color: whitesmoke;
+    padding-right: 0%;
+    margin-left: 10%;
+}
+.col-sm-10{
+    padding-left: 30px;
+}
+.col-lg-6 col-sm-12{
+   border-radius: 25px;
+
+}

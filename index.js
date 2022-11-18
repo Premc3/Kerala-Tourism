@@ -34,7 +34,7 @@ function validatepwd(){
 }
 
 function validatephone(){
-    let phoneno = /^\(?([0-9]{3})\)?[-. ]?\(?([0-9]{3})\)?[-. ]?\(?[0-9]{4})\)?$/;
+    let phoneno =/^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
 
     if (phoneno.test(phone.value)){
         return true;
